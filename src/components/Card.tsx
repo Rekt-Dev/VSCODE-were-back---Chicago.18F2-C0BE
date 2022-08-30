@@ -32,21 +32,16 @@ export let Card = (props: any) => {
               style={{ backgroundColor: "rgba(251, 251, 251, 0.2)" }}
             ></div>
           <ul>
-            {}
-              <p className={("truncate", "")} onClick={goToArtist}>
+            
+              <p className={("truncate")} onClick={goToArtist}>
                 Title: {props.item.title || "Artist name"}
               </p>
-            </a>{" "}
-            <a href="./GoToArtist">
-              <p className={("truncate", "alignLeft")} onClick={goToArtist}>
+              <p className={("truncate alignLeft")} onClick={goToArtist}>
                 Artist: {props.item.artist_title || "Title Name"}
               </p>
-            </a>
-            <a href="./GoToArtist">
-              <p className={("truncate", "alignLeft")} onClick={goToArtist}>
+              <p className={("truncate alignLeft")} onClick={goToArtist}>
                 Origin: {props.item.place_of_origin || "origin"}
               </p>
-            </a>
           </ul>
         </div>
       </div>
