@@ -16,7 +16,7 @@ export default function App() {
 
   return (
     <div className="divider">
-      <div className="">
+      <div>
         <Header search={getData} />
         <div></div>
 
