@@ -15,7 +15,7 @@
 }
 
 .ofearz {
-  padding: 20px;
+  padding: 10px;
 
   display: flex;
   flex-direction: row;
@@ -23,7 +23,7 @@
   justify-content: center;
 
   flex-wrap: wrap;
-  position: absolute;
+  position: relative;
   align-items: center;
 }
 .center {
@@ -51,6 +51,8 @@
   flex-direction: row;
   position: sticky;
   justify-content: space-between;
+
+
 }
 
 .centered {
