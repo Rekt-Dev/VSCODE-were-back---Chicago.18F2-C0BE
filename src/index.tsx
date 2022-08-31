@@ -12,7 +12,6 @@ const rootElement = document.getElementById("root");
 const root = ReactDOMClient.createRoot(rootElement);
 
 root.render(
-  <StrictMode>
     <Router>
       <Routes>
         <Route path="/" element={<App />} />
@@ -21,5 +20,4 @@ root.render(
         <Route path="hovercard" element={<HoverCard />} />
       </Routes>
     </Router>
-  </StrictMode>
 );
