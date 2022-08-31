@@ -1,5 +1,4 @@
-//import { Redirect } from "./Redirect";
-//import Image from "react-bootstrap/Image";
+import Image from "react-bootstrap/Image";
 export let Card = (props: any) => {
   function dataOrDefault() {
     const defaultLink =
