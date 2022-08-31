@@ -23,7 +23,7 @@ export default function App() {
         <div className="ofearz">
           <div className={"flexrow"}>
             {jsonData.data
-              ? jsonData.data.map((artWork, index) => (
+              ? jsonData.data.map((artWork:any, index:number) => (
                   <Card key={index} item={artWork} />
                 ))
               : "No data to show"}
